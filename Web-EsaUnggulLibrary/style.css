@@ -1,0 +1,282 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; 
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: inherit;
+}
+.medsos {
+    padding: 5px 0;
+
+
+}
+.medsos ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: grey;
+}
+
+.container {  
+    text-align: center;
+    margin: 0 auto;
+    color: grey;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #364F6B;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid #364F6B;
+}
+nav ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float:left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 75px;
+    
+}
+.kolom  {
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: 800px;
+    font-family: 'comic sans ms' ;
+    color: #364F6B;
+}
+h2 {
+    font-size: 45px;
+    font-weight: 800px;
+    font-family: 'comic sans ms' ;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-biru { 
+    background: #3FC1C9;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover{
+    background: #FC5185;
+    text-decoration: none;
+}
+a.tbl-pink{ 
+    background: #FC5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+#ebooks .tengah .kolom .deskripsi{
+    font-size: 25px;
+    font-weight: 1000;
+}
+p {
+    margin: 5px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
+    font-size: 20px;
+}
+a.tbl-pink:hover {
+    background: #3FC1C9;
+    text-decoration: none;
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+.ebooks-list {
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ebooks {
+    width: 25%;
+    margin: 0 auto;
+    
+    }
+.ebooks img {
+    width: 70%;
+    border-radius: 18px;
+    
+}
+.ebooks p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #364F6B;
+}
+#partners .tengah .kolom .deskripsi {
+    font-size: 30px;
+    font-weight: 1000;
+}
+.partner-list{
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner p {
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #364F6B;
+}
+.partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.partner img {
+    width: 50%;
+    border-radius: 50%;
+}
+#contact {
+    border-top: 2px solid #364F6B;  
+    padding:50px 0px 50px 0px;
+    background-color: #eaeaea;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}
+.footer-section {
+    width:20%;
+    margin: 0 auto;
+    
+
+}
+#contact .wrapper .footer .footer-section p {
+    font-size: 14px;
+    font-family: "nerislight", Verdana, Helvetica, Arial, sans-serif ;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#364F6B;
+    width: 1000px;
+    line-height: 30px
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    margin-top: 25px;
+}
+@media screen and (max-width: 991.98px) {
+    .wrapper{
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin:auto;
+        line-height: 60px;
+
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .partner  {
+        width: 100%;
+    }
+    .ebooks  {
+        width: 100%;
+    }
+}

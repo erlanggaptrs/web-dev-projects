@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+}
+#background{
+    
+    background-size:cover;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    position: absolute;
+    color: #fff;
+    font-family: century gothic;
+    top: 9.8%;
+    font-size:45px;
+    text-align: center;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    width: 50;
+    align-items: center;
+}
+
+#app-container textarea{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    height: 380px;
+    width: 700px;
+    font-size: 18px;
+    background-color: #e9e8e4;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+#buttons-container{ 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#encrypt {
+    position: absolute;
+    top: 67%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    background-color: #50577A;
+    font-family: 'Poppins', sans-serif;
+    color: #e9e8e4;
+    border: 0;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#decrypt {
+   position: absolute;
+    top: 67%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    background-color: #50577A;
+    color: #e9e8e4;
+    border: 0;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+#button-container input{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    text-align: center;
+    margin:5 15px 5 15px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .section1, .section2, .section3 {
+      width: 50%;
+      height: 320px;
+    }
+   }
