@@ -13,7 +13,8 @@ Built using:
 <img width="1680" alt="Screenshot 2024-12-02 at 6 05 40 PM" src="https://github.com/user-attachments/assets/af9ab08f-2027-453f-8e11-9e1d1c593112">
 <img width="1680" alt="Screenshot 2024-12-02 at 6 05 44 PM" src="https://github.com/user-attachments/assets/6dccbc0b-3ec6-43b7-a1a3-96c0ee7206c4">
 
-In the /personal-portfolioWebsite, you can run:
+
+In the personal-portfolioWebsite, you can run:
 
 ### `npm start`
 
